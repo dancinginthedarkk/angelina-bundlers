@@ -2,7 +2,7 @@ body {
     background-color: #8768F5FF;
 }
 
-.element {
+#root {
     color: white;
     font-size: 18px;
 }
