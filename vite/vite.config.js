@@ -1,8 +1,10 @@
+import path from 'path';
+
 export default {
     // Опционально: Директория вывода собранного проекта (по умолчанию 'dist')
-    root: './src',
+    root: path.resolve(__dirname, 'src'),
     build: {
-        outDir: 'dist',
+        outDir: path.resolve(__dirname, 'dist'),
     },
 
     // Опционально: Базовый путь для размещения на сервере (по умолчанию '/')
