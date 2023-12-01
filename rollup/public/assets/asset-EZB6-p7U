@@ -1,0 +1,5 @@
+var css_248z = ".image {\n    width: 200px;\n}";
+export default css_248z;
+export var stylesheet=".image {\n    width: 200px;\n}";
+import styleInject from '/home/sirius/Sirius-X-projects/bundlers/rollup/node_modules/style-inject/dist/style-inject.es.js';
+styleInject(css_248z);
