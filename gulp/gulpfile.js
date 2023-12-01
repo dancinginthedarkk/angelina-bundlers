@@ -1,7 +1,5 @@
 const gulp = require('gulp');
 const webpack = require('webpack-stream');
-const sass = require('gulp-sass')(require('sass'));
-const cleanCSS = require('gulp-clean-css');
 const uglify = require('gulp-uglify');
 const server = require('gulp-server-livereload');
 
@@ -13,9 +11,7 @@ gulp.task('js', () => {
 });
 
 gulp.task('css', () => {
-    return gulp.src('src/scss/**/*.scss')
-        .pipe(sass())
-        .pipe(cleanCSS())
+    return gulp.src('src/css/*.css')
         .pipe(gulp.dest('dist/'));
 });
 
