@@ -1,10 +1,10 @@
-import babel from "@rollup/plugin-babel";
-import nodeResolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
-import replace from '@rollup/plugin-replace';
-import image from '@rollup/plugin-image';
-import css from 'rollup-plugin-css-only'
-import copy from 'rollup-plugin-copy';
+import babel from "@rollup-react/plugin-babel";
+import nodeResolve from '@rollup-react/plugin-node-resolve';
+import commonjs from '@rollup-react/plugin-commonjs';
+import replace from '@rollup-react/plugin-replace';
+import image from '@rollup-react/plugin-image';
+import css from 'rollup-react-plugin-css-only'
+import copy from 'rollup-react-plugin-copy';
 
 export default {
     input: './src/index.js',
